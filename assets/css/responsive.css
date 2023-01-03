@@ -1,0 +1,81 @@
+/* pc */
+@media (min-width : 1024px) {
+    
+}
+
+/* Tablet & Mobile */
+@media (max-width : 1023px) {
+
+}
+
+/* Tablet */
+@media (min-width : 741px) and (max-width : 1023px) {
+    
+}
+
+/* mobile */
+@media (max-width : 740px) { 
+
+    .hide {
+        display: none;
+    }
+
+    .mb-32 {
+        margin-bottom: 32px;
+    }
+
+    .mt-32 {
+        margin-top: 32px !important;
+    }
+
+    .full-width {
+        width: 100% !important;
+    }
+
+    .col-full {
+        width: 100% !important;
+    }
+
+    #contact .send-contact {
+        padding: 16px 0;
+    }
+
+    .house-list {
+        grid-template-columns: 1fr;
+
+    }
+
+    .member-list {
+        grid-template-columns: 1fr;
+    }
+
+    
+    input.js-modal-send.modal-send {
+        padding: 16px 30px;
+    }
+
+    .social-item {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(0%, -50%);
+    }
+
+    .social-icon {
+        margin: 0 8px;
+    }
+
+    #contact .form-info .info {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    button.js-contact.button-contact.mb-32 {
+        padding: 15px 0;
+    }
+
+    .ft-social-item {
+        padding: 11px 15px;
+    }
+
+}
